@@ -43,6 +43,15 @@ h2 {
     padding-left: 670px;
 }
 
+h3 {
+    display: flex;
+    margin-top: -8px;
+    margin-left: 2px;
+    font-size: 30px;
+    color: white;
+
+}
+
 .left-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -193,7 +202,7 @@ h2 {
 
 .section-3 {
     display: flex;
-    height: 280px;
+    height: 200px;
     width: 1795px;
     padding: 50px;
     margin-top: 60px;
@@ -204,11 +213,10 @@ h2 {
 .quote {
     display: flex;
     width: 1250px;
-    height: 250px;
+    height: 300px;
     font-size: 36px;
     padding-left: 100px;
     font-style: italic;
-    margin-top: 70px;
     color: #1f2937;
     
 }
@@ -216,8 +224,57 @@ h2 {
 .author {
     display: flex;
     height: 20px;
-    margin-top: 260px;
-    margin-left: -320px;
+    margin-top: 180px;
+    margin-left: -360px;
     font-weight: bold;
-    font-size: large;
+    font-size: 22px;
 }
+
+.section-4 {
+    display: flex;
+    height: 235px;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.bluecontainer {
+    display: flex;
+    height: 50px;
+    padding: 50px;
+    margin-top: 20px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+
+.button {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+.mainheader {
+    display: flex;
+}
+
+.mainsubtext {
+    display: flex;
+    margin-top: 20px;
+    height: 30px;
+    width: 800px;
+    margin-left: -477px;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+.footer {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 16px;
+}
+
