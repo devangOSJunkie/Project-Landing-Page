@@ -34,6 +34,15 @@ a {
     color: #e5e7eb;
 }
 
+h2 {
+    font-weight: 800px;
+    font-size: 40px;
+    color: #1f2937;
+    display: flex;
+    margin-top: -2px;
+    padding-left: 670px;
+}
+
 .left-logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -54,7 +63,7 @@ a {
 .right-links {
     display: flex;
     padding-right: 360px;
-    gap: 20px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -88,4 +97,127 @@ a {
 }
 
 
+.section-2 {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    padding-top: 20px;
+}
 
+
+.container {
+    display: flex;
+    margin-left: 480px;
+    width: 900px;
+    height: 200px;
+    align-items: center;
+    gap: 80px;
+    margin-top: -45px;
+    padding-top: 20px;
+} 
+
+.box1 {
+    display: flex;
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 190px;
+    border-radius: 8px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.textcontainer {
+    display: flex;
+    justify-content: center;
+    margin-left: -15px;
+    gap: 36px;
+    margin-top: -10px;
+}
+
+.text1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+.text2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+.text3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+.text4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 210px;
+    padding-left: 10px;
+    margin-left: -10px;
+}
+
+.section-3 {
+    display: flex;
+    height: 280px;
+    width: 1795px;
+    padding: 50px;
+    margin-top: 60px;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    width: 1250px;
+    height: 250px;
+    font-size: 36px;
+    padding-left: 100px;
+    font-style: italic;
+    margin-top: 70px;
+    color: #1f2937;
+    
+}
+
+.author {
+    display: flex;
+    height: 20px;
+    margin-top: 260px;
+    margin-left: -320px;
+    font-weight: bold;
+    font-size: large;
+}
