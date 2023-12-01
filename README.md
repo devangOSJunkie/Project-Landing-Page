@@ -1,4 +1,4 @@
-# Project-Landing-Page
+# Project: Landing-Page
 Aim: The goal here is to create an entire webpage from a design provided by the Odin Project.
 
 Experience: This project helped me improve my flexbox concepts and positioning. I got to know about flexbox indepth it was hard or me to visualize it earlier but this project provided a good hands-on experience.
