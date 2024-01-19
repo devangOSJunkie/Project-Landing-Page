@@ -278,3 +278,29 @@ h3 {
     font-size: 16px;
 }
 
+@media only screen and (max-width: 1200px) {
+    /* Adjust styles for screens up to 1200px wide */
+    .left-logo {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .right-links {
+        padding-right: 20px; /* Adjust padding for smaller screens */
+    }
+
+    /* Add more adjustments as needed */
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .left-logo {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .right-links {
+        padding-right: 10px; /* Adjust padding for smaller screens */
+    }
+
+    /* Add more adjustments as needed */
+}
+
