@@ -29,14 +29,15 @@ p {
     color: #e5e7eb;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
     outline: none;
-    color: #e5e7eb;
+    color:whitesmoke
 }
 
 h2 {
     font-weight: 800px;
-    font-size: 40px;
+    font-size: 30px;
+    text-decoration: underline;
     color: #1f2937;
     display: flex;
     margin-top: -2px;
@@ -64,13 +65,17 @@ h3 {
     background-color: #1f2937;
 }
 
-.left-logo {
+.left-logo img {
+    border-radius: 25%;
+    overflow: hidden;
+    max-width: 80px;
     display: flex;
     margin-left: 400px;
 }
 
 .right-links {
     display: flex;
+    flex-shrink: 0;
     padding-right: 360px;
     gap: 50px;
     align-items: center;
@@ -82,6 +87,13 @@ h3 {
     padding: 40px;
     justify-content: space-between;
     background-color: #1f2937;
+}
+
+.image img {
+    border-radius: 2%; /* Make it a circle by setting border-radius to 50% */
+    overflow: hidden;
+    height: 300px;
+    margin-right: 320px;
 }
 
 .rightimage {
@@ -98,6 +110,7 @@ h3 {
 
 .left-content {
     display: flex;
+    flex-shrink: 0;
     flex-direction: column;
     padding: 20px;
     margin-left: 355px;
@@ -127,10 +140,15 @@ h3 {
 
 .box1 {
     display: flex;
-    border: 3px solid #3882f6;
     height: 150px;
     width: 190px;
+    border: 3px solid #3882f6;
     border-radius: 8px;
+}
+
+.box1 img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .box2 {
@@ -212,10 +230,10 @@ h3 {
 
 .quote {
     display: flex;
-    width: 1250px;
-    height: 300px;
-    font-size: 36px;
-    padding-left: 100px;
+    width: 1000px;
+    height: 500px;
+    font-size: 32px;
+    padding-left: 400px;
     font-style: italic;
     color: #1f2937;
     
@@ -225,9 +243,9 @@ h3 {
     display: flex;
     height: 20px;
     margin-top: 180px;
-    margin-left: -360px;
+    margin-right: 100px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .section-4 {
